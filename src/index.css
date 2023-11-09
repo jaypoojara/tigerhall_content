@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: "Montreal";
+  src: url("font/ppneuemontreal-medium.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Montreal";
+  src: url("font/ppneuemontreal-bold.woff") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Montreal", sans-serif;
+  box-sizing: border-box;
+}
