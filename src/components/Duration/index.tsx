@@ -1,5 +1,5 @@
 import { DurationProps } from "./type";
-import TimeIcon from "../../assets/Icons/TimeIcon.svg";
+import TimeIcon from "../../assets/icons/TimeIcon.svg";
 import { Container } from "./style";
 import { XSHeaderBold } from "../TextComp/style";
 import { theme } from "../../common/theme";

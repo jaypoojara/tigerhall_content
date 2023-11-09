@@ -10,12 +10,12 @@ import {
   ProgressBarContainer,
   TitleContainer,
 } from "./style";
-import ContentStatusIcon from "../../assets/Icons/PartiallyCompleteClock.svg";
-import EllipseIcon from "../../assets/Icons/Ellipse.svg";
-import PodcastIcon from "../../assets/Icons/PodcastIcon.svg";
-import ShareIcon from "../../assets/Icons/ShareIcon.svg";
-import BookmarkIcon from "../../assets/Icons/BookmarkIcon.svg";
-import ProgressBarIcon from "../../assets/Icons/ProgressBarIcon.svg";
+import ContentStatusIcon from "../../assets/icons/PartiallyCompleteClock.svg";
+import EllipseIcon from "../../assets/icons/Ellipse.svg";
+import PodcastIcon from "../../assets/icons/PodcastIcon.svg";
+import ShareIcon from "../../assets/icons/ShareIcon.svg";
+import BookmarkIcon from "../../assets/icons/BookmarkIcon.svg";
+import ProgressBarIcon from "../../assets/icons/ProgressBarIcon.svg";
 import { MDHeaderBold, XSHeaderBold, XSHeaderMedium } from "../TextComp/style";
 import Duration from "../Duration";
 import { IContentCard } from "./type";

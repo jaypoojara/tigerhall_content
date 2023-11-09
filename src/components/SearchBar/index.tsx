@@ -1,6 +1,6 @@
 import { SearchBarProps } from "./type";
 import { Input, InputContainer } from "./style";
-import SearchIcon from "../../assets/Icons/SearchIcon.svg";
+import SearchIcon from "../../assets/icons/SearchIcon.svg";
 
 const SearchBar = ({ onChange }: SearchBarProps) => {
   return (
