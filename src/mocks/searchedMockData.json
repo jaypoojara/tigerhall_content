@@ -1,0 +1,30 @@
+{
+  "contentCards": {
+    "edges": [
+      {
+        "name": "test developer",
+        "image": {
+          "uri": "https://images.staging.tigerhall.io/users/2023-06-14/3f6c372d-d0b3-42fc-87f5-ffea83c6c5fe-f529ae53-39e2-4dea-861b-47cc9ceafeae.png",
+          "__typename": "Image"
+        },
+        "categories": [
+          {
+            "name": "category April",
+            "__typename": "Category"
+          }
+        ],
+        "experts": [
+          {
+            "firstName": "Aqib",
+            "lastName": "Abas",
+            "title": "",
+            "company": "",
+            "__typename": "Expert"
+          }
+        ],
+        "__typename": "Podcast"
+      }
+    ],
+    "__typename": "ContentConnection"
+  }
+}
