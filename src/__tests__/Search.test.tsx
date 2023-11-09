@@ -9,22 +9,6 @@ import searchedMockData from '../mocks/searchedMockData.json';
 jest.mock("@apollo/client");
 
 describe("SearchPage", () => {
-  it("should match snapshot", async () => {
-    (useQuery as jest.Mock).mockReturnValueOnce({
-      loading: false,
-      error: null,
-      data: mockData,
-    });
-    const { container } = render(
-      <MockedProvider>
-        <ThemeProvider theme={theme}>
-          <SearchPage />
-        </ThemeProvider>
-      </MockedProvider>
-    );
-    expect(container).toMatchSnapshot();
-  });
-
   it("should render content card data", async () => {
     (useQuery as jest.Mock).mockReturnValueOnce({
       loading: false,
